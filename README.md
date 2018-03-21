@@ -1,17 +1,22 @@
 # CamelCase JS
-
 > String to CamelCase or CamelCase to string: `foo-bar` ⇄ `fooBar`
 
 
 ## Install
-
 ```
 $ npm install --save camelcasejs
 ```
 
-## CamelCase
-### Strings
+# Methods
+- CamelCase
+    - Convert string/array to camelcase format
+- DeCamelize
+    - Convert CamelCase format to string
+
+# Examples
+### CamelCase
 ```js
+// Import
 const { CamelCase } = require('camelcasejs');
 
 CamelCase('foo-bar');
@@ -32,16 +37,18 @@ CamelCase('__foo__bar__');
 CamelCase('foo bar');
 // Response = 'fooBar'
 ```
-### Array
+#### Array
 ```js
+// Import
 const { CamelCase } = require('camelcasejs');
 
 CamelCase(['foo', 'bar']);
 // Response = 'fooBar'
 ```
 
-## DeCamelize
+### DeCamelize
 ```js
+// Import
 const { DeCamelize } = require('camelcasejs');
 
 DeCamelize('fooBar');

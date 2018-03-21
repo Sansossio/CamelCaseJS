@@ -1,6 +1,6 @@
 {
   "name": "camelcasejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "String to CamelCase or CamelCase to string: `foo-bar` ⇄ `fooBar`",
   "main": "index.js",
   "scripts": {
