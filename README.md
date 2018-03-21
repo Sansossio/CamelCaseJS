@@ -9,7 +9,7 @@ $ npm install --save camelcasejs
 
 # Methods
 - CamelCase
-    - Convert string/array to camelcase format
+    - Convert string/array to CamelCase format
 - DeCamelize
     - Convert CamelCase format to string
 
