@@ -1,6 +1,6 @@
 {
   "name": "camelcasejs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "String to CamelCase or CamelCase to string: `foo-bar` ⇄ `fooBar`",
   "main": "index.js",
   "scripts": {
@@ -11,10 +11,9 @@
     "url": "git+https://github.com/Sansossio/CamelCaseJS.git"
   },
   "keywords": [
-    "camel",
+    "camel case",
     "case",
     "camel",
-    "case",
     "dash",
     "dot",
     "under",
